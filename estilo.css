@@ -1,0 +1,66 @@
+body {
+    background-color: blanchedalmond;
+}
+
+#texto-1 {
+    color: aquamarine;
+    background-color: darkblue;
+    border: 4px dotted black padding: 7px;
+    animation: escalado 2s infinite;
+}
+
+@keyframes escalado {
+  
+
+    50% {
+        transform: scale(0, 9);
+    }
+
+    
+}
+
+
+
+#texto-2 {
+    color: burlywood;
+    border: 4px dotted blueviolet;
+    background-color: darkcyan;
+    animation-name: movimiento;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes movimiento{
+    50%{
+        transform: translateX(2000px);
+    
+    }
+
+
+    }
+
+#texto-3 {
+    color: chartreuse;
+    border: 10px dotted yellowgreen;
+    background-color: darkkhaki;
+    padding: 3px;
+    animation-name: animacion;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacion{
+
+    25%{
+        background-color: aqua;
+        border-color: darkkhaki;
+        }
+    50%{
+        background-color: darkmagenta;
+        border-color: darkblue;
+        }
+
+
+
+    }
